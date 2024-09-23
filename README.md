@@ -25,7 +25,7 @@
   - Before using or contributing to this project, please ensure you meet the following requirements:
   1) *Node.js:* Make sure you have Node.js (v14 or higher) installed. You can download it from [Node.js official website](https://nodejs.org/).
   2) *Package Manager:* This project uses npm (comes with Node.js) or yarn. Install yarn globally if you prefer:
-             ```]npm install --global yarn
+             ```npm install --global yarn
     ```
   3) *Vite Build Tool:* This project is built using Vite. Ensure that your environment supports fast development builds with Vite.
   4) *Dependencies Installation:* After cloning the project, run the following command to install all required dependencies:
@@ -38,28 +38,52 @@
 ### Usage Instructions
  1) *Running the Development Server:* After installing the dependencies, start the development server with:
     
-      ```properties
+ ```properties
       npm run dev
-    ```
-      or
-      ```properties
-        yarn dev
-    ```
+   ```
+  <p align="center">or</p>
+  
+   ```properties
+    yarn dev
+   ```
   
  2) *Accessing the App:* Once the server is running, open your browser and go to: [npm run dev](http://localhost:3000/)
  3) *Building for Production:* If you want to create a production-ready build of the app, run the following command: 
   ```properties
         npm run build
 ```
-or 
+ <p align="center">or</p>
+ 
  ```properties
         yarn build
 ```
 
  4) *Environment Variables:*  If required, ensure to set up any environment variables (like API keys or backend URLs) in a .env file at the root of the project.
 
- ### 2) Setup
-1. **Clone the Repository:**
-    ```bash
+ ## Setup
+1. **Clone the Repository:** 
+ ```bash
     git clone https://github.com/RudraPrasad07/School-Data-Management-System.git
-    ```
+  ```
+2. **Install the required dependencies:**
+  ```bash
+    cd ecommerce-react-app
+    npm install
+ ```
+3. **Start the development server:**
+  ```bash
+  npm start
+ ```
+4.Open your browser and navigate to  [ npm start](http://localhost:3000.)
+
+### Future Enhancements
+- **Integration with Backend APIs:** To fetch product data and manage orders.
+- **Payment Gateway Integration:** Add support for payments using services like PayPal or Stripe.
+- **User Authentication:** Implement JWT-based authentication for secure login and registration.
+  
+  <br>
+  
+ <div align="center">
+  
+   ***Thank You! For checking out my project! 🙏***
+</div>
