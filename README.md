@@ -25,7 +25,8 @@
   - Before using or contributing to this project, please ensure you meet the following requirements:
   1) *Node.js:* Make sure you have Node.js (v14 or higher) installed. You can download it from [Node.js official website](https://nodejs.org/).
   2) *Package Manager:* This project uses npm (comes with Node.js) or yarn. Install yarn globally if you prefer:
-            ```npm install --global yarn```
+             ```]npm install --global yarn
+    ```
   3) *Vite Build Tool:* This project is built using Vite. Ensure that your environment supports fast development builds with Vite.
   4) *Dependencies Installation:* After cloning the project, run the following command to install all required dependencies:
      `npm install` or if you're using yarn: ```yarn install```
@@ -34,6 +35,31 @@
           *SWC-based:*`@vitejs/plugin-react-swc` Ensure one of these plugins is installed for your development setup.
  6) *Browser Compatibility:* The application works best on modern browsers like Chrome, Firefox, Edge, or Safari. Ensure you are using a recent version for the best experience.
      
+### Usage Instructions
+ 1) *Running the Development Server:* After installing the dependencies, start the development server with:
+    
+      ```properties
+      npm run dev
+    ```
+      or
+      ```properties
+        yarn dev
+    ```
+  
+ 2) *Accessing the App:* Once the server is running, open your browser and go to: [npm run dev](http://localhost:3000/)
+ 3) *Building for Production:* If you want to create a production-ready build of the app, run the following command: 
+  ```properties
+        npm run build
+```
+or 
+ ```properties
+        yarn build
+```
 
+ 4) *Environment Variables:*  If required, ensure to set up any environment variables (like API keys or backend URLs) in a .env file at the root of the project.
 
-
+ ### 2) Setup
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/RudraPrasad07/School-Data-Management-System.git
+    ```
